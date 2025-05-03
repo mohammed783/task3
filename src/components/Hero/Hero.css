@@ -1,0 +1,110 @@
+.hero{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-top: 90px;
+} 
+.hero .l-hero img{
+    width: 80%;
+}
+
+@media (max-width:1200px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media (max-width:1200px) {
+    .hero .l-hero img{
+     width: 70%;
+     margin-bottom: 20px;
+    }
+}
+
+.hero .r-hero{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width:1200px) {
+    .hero .r-hero{
+        width: 60%;
+        align-items: center;
+        width: 100%;
+    }
+}
+.hero .r-hero .p1{
+    font-size: 22px;
+    border-bottom:2px solid black ;
+    padding-bottom: 4px;
+    font-weight: 500;
+    width: 90%;
+}
+@media (max-width:1440px) {
+    .hero .r-hero .p1{
+        width: 90%px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media (max-width:490px) {
+    .hero .r-hero .p1{
+        width: 60%px;
+    }
+}
+
+.hero .r-hero h2{
+    font-weight: 800;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+@media (max-width:1440px) {
+    .hero .r-hero h2{
+        width: 90%px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
+.hero .r-hero h2 span{
+   color: #FF8D4D;
+}
+.hero .r-hero .p2{
+    font-size: 20px;
+    line-height: 150%;
+    width: 75%;
+    margin-bottom: 40px;
+}
+.hero .r-hero .hero-box{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFEFE5;
+    box-shadow: 10px 10px #FFBE99;
+    padding: 24px 50px;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 85%;
+}
+@media (max-width:1440px) {
+    .hero .r-hero .hero-box{
+        padding: 20px 40px;
+    }
+}
+@media (max-width:1200px) {
+    .hero .r-hero .hero-box{
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+.hero .r-hero .hero-box .num{
+    font-weight: 800;
+    font-size: 44px;
+}
+.hero .r-hero .hero-box p{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
