@@ -1,0 +1,73 @@
+.team-section {
+    padding: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .team-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-subtitle {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .team-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .team-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .team-name {
+    flex: 1;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  
+  .email-icon {
+    font-size: 1.2rem;
+  }
+  
+  .team-qual {
+    background: #fff3eb;
+    border: 1px solid #dcb;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .team-desc {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
